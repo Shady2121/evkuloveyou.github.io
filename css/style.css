@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: cursive;
+    white-space: nowrap;
+    color: black;
+}
+body {
+    background-image: url(../img/elprj.bmp);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cont  {
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.centr {
+    width: 300px;
+    height: 290px;
+    animation-name: centr;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 1800%;
+    line-height: 0px;
+    border-radius: 30%;
+}
+.heart i{
+    animation-name: heart;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+/* @keyframes centr {
+    0% {background-color: black;}
+    33% {background-color: rgb(170, 0, 0);}
+    66% {background-color: rgb(211, 14, 0);}
+    100% {background-color: black;}
+} */
+@keyframes heart {
+    0% {color: rgb(231, 0, 0);} 
+    10% {color: rgb(170, 0, 0);}
+    20% {color: rgb(165, 25, 25);}
+    30% {color: rgb(202, 32, 32);}
+    40% {color: rgb(224, 21, 21);}
+    50% {color: rgb(230, 24, 24);}
+    60% {color: rgb(151, 14, 14);}
+    70% {color: rgb(141, 22, 22);}
+    80% {color: rgb(231, 25, 25);}
+    90% {color: rgb(192, 6, 6);}
+    100% {color: rgb(231, 0, 0);}
+}
+#heart1:hover  {
+    opacity: 0;
+}
+.centr1:hover {
+    background-image: url(../img/IMG_20200131_191554.jpg);
+    background-size: cover;
+}
+.centr2:hover {
+    background-image: url(../img/Screenshot_2020-01-30-01-42-30-79.png);
+    background-size: cover;
+
+}
+.centr3:hover {
+    background-image: url(../img/Screenshot_2019-08-08-22-38-10-171_com.instagram.android.png);
+    background-size: cover;
+}
+@media (max-width:720px) {
+    .cont {
+        flex-direction: column;
+    }
+}
+
