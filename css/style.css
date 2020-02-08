@@ -21,6 +21,20 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+.podwal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.podwal p{
+    color: coral;
+    font-size: 30px;
+}
+.podwal i{
+    color: coral;
+    font-size: 30px;
+}
 .centr {
     width: 300px;
     height: 290px;
